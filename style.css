@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header, footer, nav, section, article, .content {
+display:block;
+}
+
+body{
+height:100%;
+}
+
+header{
+    text-align: center;
+	background-color:#DCEA02;
+	padding-bottom:30px;
+	width:auto;
+	font-size: 25px;
+
+}
+
+footer{
+    text-align: center;
+	background-color:#008083;
+	padding-bottom:30px;
+	width:auto;
+	clear:both;
+	font-size: 25px;
+
+}
+
+nav{
+    text-align: left;
+	background-color:red;
+	width:20%;
+	float:left;
+	margin-bottom:-1000px;
+	padding-bottom:1000px;
+	position: absolute;
+	height: 100%;
+	font-size: 25px;
+
+}
+
+section{
+    text-align: left;
+	background-color:#d3b488;
+	float:right;
+	width:80%;
+	margin-bottom:-1000px;
+	padding-bottom:1000px;
+	height: 100%;
+	font-size: 25px;
+
+}
+
+.articulo{
+	background-color:black;
+	width:100%;
+	margin-bottom:40px;
+	color:white;
+	font-size: 18px;
+	padding: 10px 0px 10px 0px;
+}
+
+* {
+   margin: 0px;
+}
+
+.content{
+    overflow: hidden;
+	position: relative;
+}
